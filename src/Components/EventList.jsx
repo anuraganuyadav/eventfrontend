@@ -7,7 +7,7 @@ const EventList = () => {
   const [events, setEvents] = useState([]);
   const navigate = useNavigate();
 
-  // Fetch events
+  // Fetch eventsde
   const fetchEvents = async () => {
     try {
       const res = await axios.get(`${API_BASE_URL}events`);
